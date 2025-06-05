@@ -1,0 +1,11 @@
+.DS_Store
+.idea
+nbproject
+
+/.ddev/
+/config/
+/public/
+/vendor/
+/var/
+
+composer.lock

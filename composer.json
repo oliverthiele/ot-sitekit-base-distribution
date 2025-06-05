@@ -1,0 +1,74 @@
+{
+	"name": "oliverthiele/ot-sitekit-base-distribution",
+	"description": "TYPO3 Sitekit: A base distribution that installs a predefined set of extensions for my standard TYPO3 setup.",
+	"license": "GPL-2.0-or-later",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Oliver Thiele",
+			"email": "mail@oliver-thiele.de",
+			"role": "Developer"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		},
+		"platform": {
+			"php": "8.2.0"
+		},
+		"sort-packages": true
+	},
+	"require": {
+		"b13/container": "^3.1.10",
+		"helhum/typo3-console": "^8.2",
+		"ichhabrecht/content-defender": "^3.5.3",
+		"oliverthiele/ot-febuild": "*",
+		"oliverthiele/ot-irrebuttons": "@dev",
+		"sitegeist/image-jack": "^0.11.0",
+		"typo3/cms-backend": "^v13.4",
+		"typo3/cms-belog": "^v13.4",
+		"typo3/cms-beuser": "^v13.4",
+		"typo3/cms-core": "^v13.4.13",
+		"typo3/cms-dashboard": "^v13.4",
+		"typo3/cms-extbase": "^v13.4",
+		"typo3/cms-extensionmanager": "^v13.4",
+		"typo3/cms-felogin": "^v13.4",
+		"typo3/cms-filelist": "^v13.4",
+		"typo3/cms-fluid": "^v13.4",
+		"typo3/cms-fluid-styled-content": "^v13.4",
+		"typo3/cms-form": "^v13.4",
+		"typo3/cms-frontend": "^v13.4",
+		"typo3/cms-impexp": "^v13.4",
+		"typo3/cms-info": "^v13.4",
+		"typo3/cms-install": "^v13.4",
+		"typo3/cms-reactions": "^v13.4",
+		"typo3/cms-recycler": "^v13.4",
+		"typo3/cms-rte-ckeditor": "^v13.4",
+		"typo3/cms-seo": "^v13.4",
+		"typo3/cms-setup": "^v13.4",
+		"typo3/cms-sys-note": "^v13.4",
+		"typo3/cms-tstemplate": "^v13.4",
+		"typo3/cms-viewpage": "^v13.4",
+		"typo3/cms-webhooks": "^v13.4",
+		"typo3/cms-scheduler": "^v13.4",
+		"typo3/cms-linkvalidator": "^v13.4",
+		"vlucas/phpdotenv": "^v5.6.2"
+	},
+	"require-dev": {
+		"roave/security-advisories": "dev-latest",
+		"typo3/coding-standards": "^v0.8.0",
+		"typo3/cms-lowlevel": "^v13.4"
+	},
+	"repositories": {
+		"local": {
+			"type": "path",
+			"url": "./packages/*"
+		},
+		"ot-febuild": {
+			"type": "vcs",
+			"url": "git@github.com:oliverthiele/ot-febuild.git"
+		}
+	}
+}
