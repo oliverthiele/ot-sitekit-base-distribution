@@ -25,7 +25,7 @@
 		"helhum/typo3-console": "^8.2",
 		"ichhabrecht/content-defender": "^3.5.3",
 		"oliverthiele/ot-febuild": "*",
-		"oliverthiele/ot-irrebuttons": "@dev",
+		"oliverthiele/ot-irrebuttons": "^v3.2.0",
 		"sitegeist/image-jack": "^0.11.0",
 		"typo3/cms-backend": "^v13.4",
 		"typo3/cms-belog": "^v13.4",
@@ -65,10 +65,6 @@
 		"local": {
 			"type": "path",
 			"url": "./packages/*"
-		},
-		"ot-febuild": {
-			"type": "vcs",
-			"url": "git@github.com:oliverthiele/ot-febuild.git"
 		}
 	}
 }
