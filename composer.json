@@ -26,7 +26,7 @@
 		"ichhabrecht/content-defender": "^3.5.3",
 		"oliverthiele/ot-febuild": "*",
 		"oliverthiele/ot-irrebuttons": "^v3.2.0",
-		"sitegeist/image-jack": "^0.11.0",
+		"plan2net/webp": "^v13.0.1",
 		"typo3/cms-backend": "^v13.4",
 		"typo3/cms-belog": "^v13.4",
 		"typo3/cms-beuser": "^v13.4",
