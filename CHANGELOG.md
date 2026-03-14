@@ -7,11 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] — 2026-03-14
+
+### Added
+
+- Added `php: ^8.3` to `require` section for explicit PHP version constraint
+
 ### Changed
 
 - PHP platform requirement raised from 8.2 to 8.3
 - Removed `v` prefix from all version constraints for consistency with Composer standard
 - Sorted `require` packages alphabetically
+- Added README and CHANGELOG following project documentation standards
 
 ## [1.1.2] — 2025-11-29
 
@@ -45,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.2...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.2...v1.2.0
 [1.1.2]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.0.0...v1.1.0
