@@ -23,7 +23,7 @@
 	"require": {
 		"php": "^8.4",
 		"b13/container": "^3.2.3",
-		"friendsoftypo3/content-blocks": "^2.3.1",
+		"friendsoftypo3/content-blocks": "^1.5.1",
 		"helhum/typo3-console": "^8.3.1",
 		"ichhabrecht/content-defender": "^3.5.3",
 		"oliverthiele/ot-febuild": "*",
