@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.1] — 2026-04-25
+
+### Fixed
+
+- Downgrade `friendsoftypo3/content-blocks` to `^1.5.1` —
+  v2.3.1 requires TYPO3 v14.3 and is incompatible with this v13 distribution
+
+---
+
 ## [1.3.0] — 2026-04-25
 
 ### Changed
@@ -61,7 +70,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...HEAD
+[1.3.1]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.2...v1.2.0
 [1.1.2]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.1...v1.1.2
