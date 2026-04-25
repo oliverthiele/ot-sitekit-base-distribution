@@ -16,18 +16,18 @@
 			"typo3/cms-composer-installers": true
 		},
 		"platform": {
-			"php": "8.3.0"
+			"php": "8.4.0"
 		},
 		"sort-packages": true
 	},
 	"require": {
-		"php": "^8.3",
-		"b13/container": "^3.2.2",
-		"friendsoftypo3/content-blocks": "^1.4.2",
+		"php": "^8.4",
+		"b13/container": "^3.2.3",
+		"friendsoftypo3/content-blocks": "^2.3.1",
 		"helhum/typo3-console": "^8.3.1",
 		"ichhabrecht/content-defender": "^3.5.3",
 		"oliverthiele/ot-febuild": "*",
-		"oliverthiele/ot-irrebuttons": "^3.2.5",
+		"oliverthiele/ot-irrebuttons": "^4.0",
 		"plan2net/webp": "^13.0.1",
 		"typo3/cms-backend": "^13.4",
 		"typo3/cms-belog": "^13.4",
