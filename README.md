@@ -1,9 +1,9 @@
 # TYPO3 Sitekit Base Distribution — Composer-based TYPO3 base distribution
 
-A curated base distribution for TYPO3 v13.4, providing a predefined set of
+A curated base distribution for TYPO3 v14.3, providing a predefined set of
 extensions for a standard Sitekit setup.
 
-[![TYPO3](https://img.shields.io/badge/TYPO3-13.4-orange.svg)](https://typo3.org/)
+[![TYPO3](https://img.shields.io/badge/TYPO3-14.3-orange.svg)](https://typo3.org/)
 [![Packagist Version](https://img.shields.io/packagist/v/oliverthiele/ot-sitekit-base-distribution.svg)](https://packagist.org/packages/oliverthiele/ot-sitekit-base-distribution)
 [![PHP](https://img.shields.io/packagist/dependency-v/oliverthiele/ot-sitekit-base-distribution/php.svg)](https://php.net/)
 [![License](https://img.shields.io/packagist/l/oliverthiele/ot-sitekit-base-distribution.svg)](LICENSE)
@@ -21,8 +21,8 @@ extensions for a standard Sitekit setup.
 
 | Requirement | Version |
 |-------------|---------|
-| TYPO3       | ^13.4   |
-| PHP         | ^8.3    |
+| TYPO3       | ^14.3   |
+| PHP         | ^8.4    |
 | Composer    | ^2.0    |
 
 ## Installation
@@ -44,12 +44,17 @@ composer require oliverthiele/ot-sitekit-base-distribution
 | `b13/container`                 | Container content elements                                                                                                                                                                                                                                                           |
 | `friendsoftypo3/content-blocks` | Content Blocks API                                                                                                                                                                                                                                                                   |
 | `helhum/typo3-console`          | Extended CLI for TYPO3                                                                                                                                                                                                                                                               |
-| `ichhabrecht/content-defender`  | Restrict allowed content element types                                                                                                                                                                                                                                               |
 | `oliverthiele/ot-febuild`       | Frontend build target extension                                                                                                                                                                                                                                                      |
 | `oliverthiele/ot-irrebuttons`   | Additional inline relational record buttons                                                                                                                                                                                                                                          |
-| `plan2net/webp`                 | Automatic WebP image conversion                                                                                                                                                                                                                                                      |
 | `vlucas/phpdotenv`              | `.env` file support                                                                                                                                                                                                                                                                  |
 | TYPO3 Core extensions           | backend, belog, beuser, dashboard, extbase, extensionmanager, felogin, filelist, filemetadata, fluid, fluid-styled-content, form, frontend, impexp, info, install, linkvalidator, reactions, recycler, rte-ckeditor, scheduler, seo, setup, sys-note, tstemplate, viewpage, webhooks |
+
+## Temporarily removed extensions (not released for TYPO3 v14 yet)
+
+| Package                        | Description                            |
+|--------------------------------|----------------------------------------|
+| `ichhabrecht/content-defender` | Restrict allowed content element types |
+| `plan2net/webp`                | Automatic WebP image conversion        |
 
 ## License
 

@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.0] — 2026-04-26
+
+### Changed
+
+- Raise TYPO3 core packages to `^14.3`
+- Raise PHP requirement and platform version to `^8.4`
+- Raise `friendsoftypo3/content-blocks` to `^2.3.1`
+
+### Removed
+
+- Temporarily remove `ichhabrecht/content-defender` because no TYPO3 v14 compatible release is available yet
+- Temporarily remove `plan2net/webp` because no TYPO3 v14 compatible release is available yet
+
+---
+
 ## [1.3.1] — 2026-04-25
 
 ### Fixed
@@ -70,7 +85,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...v2.0.0
 [1.3.1]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.1.2...v1.2.0
