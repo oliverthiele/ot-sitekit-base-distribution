@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] — 2026-05-19
+
+### Added
+
+- Re-add `plan2net/webp` at `^14.4` — TYPO3 v14 compatible release is now available
+
+### Changed
+
+- Update `.editorconfig` to match current TYPO3 Core configuration
+
+---
+
 ## [2.0.0] — 2026-04-26
 
 ### Changed
@@ -85,7 +97,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...v2.0.0
 [1.3.1]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.0...v1.3.1
 [1.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.2.0...v1.3.0

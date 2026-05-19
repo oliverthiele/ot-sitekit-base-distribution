@@ -23,10 +23,11 @@
 	"require": {
 		"php": "^8.4",
 		"b13/container": "^3.2.3",
-		"friendsoftypo3/content-blocks": "^2.3.1",
+		"friendsoftypo3/content-blocks": "^2.3",
 		"helhum/typo3-console": "^8.3.1",
 		"oliverthiele/ot-febuild": "*",
-		"oliverthiele/ot-irrebuttons": "^4.0.1",
+		"oliverthiele/ot-irrebuttons": "^4.0",
+		"plan2net/webp": "^14.4",
 		"typo3/cms-backend": "^14.3",
 		"typo3/cms-belog": "^14.3",
 		"typo3/cms-beuser": "^14.3",
