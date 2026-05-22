@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] — 2026-05-22
+
+### Changed
+
+- Upgrade `b13/container` from `^3.2.3` to `^4.0` — fixes drag & drop into containers in TYPO3 v14 (new Core `DataHandlerContentElementRestrictionHook`)
+
+---
+
 ## [2.1.0] — 2026-05-19
 
 ### Added
@@ -97,7 +105,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...v2.0.0
 [1.3.1]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.0...v1.3.1
