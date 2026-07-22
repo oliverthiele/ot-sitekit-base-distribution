@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.3.0] — 2026-07-22
+
+### Changed
+
+- Update `friendsoftypo3/content-blocks` from `^2.3` to `^2.4`
+- Update `helhum/typo3-console` from `^8.3.1` to `^9.0`
+- Update `plan2net/webp` from `^14.4` to `^14.8`
+- Relax `vlucas/phpdotenv` from `^5.6.3` to `^5.6`
+- Update `typo3/coding-standards` (dev) from `^0.8.0` to `dev-main`
+- Extend `.editorconfig` TS/JS ruleset to also apply to `.vue` files
+- Remove redundant `config.platform.php` pin (`8.4.0`) — `require.php: ^8.4` already covers PHP 8.4 and 8.5
+
+---
+
 ## [2.2.0] — 2026-05-22
 
 ### Changed
@@ -105,7 +119,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.2.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.3.0...HEAD
+[2.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v1.3.1...v2.0.0
