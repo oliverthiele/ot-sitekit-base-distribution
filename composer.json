@@ -23,11 +23,11 @@
 	"require": {
 		"php": "^8.4",
 		"b13/container": "^4.0",
-		"friendsoftypo3/content-blocks": "^2.3",
-		"helhum/typo3-console": "^8.3.1",
+		"friendsoftypo3/content-blocks": "^2.4",
+		"helhum/typo3-console": "^9.0",
 		"oliverthiele/ot-febuild": "*",
 		"oliverthiele/ot-irrebuttons": "^4.0",
-		"plan2net/webp": "^14.4",
+		"plan2net/webp": "^14.8",
 		"typo3/cms-backend": "^14.3",
 		"typo3/cms-belog": "^14.3",
 		"typo3/cms-beuser": "^14.3",
@@ -58,12 +58,12 @@
 		"typo3/cms-viewpage": "^14.3",
 		"typo3/cms-webhooks": "^14.3",
 		"typo3/cms-workspaces": "^14.3",
-		"vlucas/phpdotenv": "^5.6.3"
+		"vlucas/phpdotenv": "^5.6"
 	},
 	"require-dev": {
 		"roave/security-advisories": "dev-latest",
 		"typo3/cms-lowlevel": "^14.3",
-		"typo3/coding-standards": "^0.8.0"
+		"typo3/coding-standards": "dev-main"
 	},
 	"repositories": {
 		"local": {
