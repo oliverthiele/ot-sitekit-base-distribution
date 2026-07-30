@@ -44,17 +44,19 @@ composer require oliverthiele/ot-sitekit-base-distribution
 | `b13/container`                 | Container content elements                                                                                                                                                                                                                                                           |
 | `friendsoftypo3/content-blocks` | Content Blocks API                                                                                                                                                                                                                                                                   |
 | `helhum/typo3-console`          | Extended CLI for TYPO3                                                                                                                                                                                                                                                               |
+| `ichhabrecht/content-defender`  | Restrict allowed content element types                                                                                                                                                                                                                                               |
 | `oliverthiele/ot-febuild`       | Frontend build target extension                                                                                                                                                                                                                                                      |
+| `oliverthiele/ot-iconselector`  | Icon selection field for the TYPO3 backend                                                                                                                                                                                                                                           |
+| `oliverthiele/ot-icons`         | Icon set for the Sitekit setup                                                                                                                                                                                                                                                       |
 | `oliverthiele/ot-irrebuttons`   | Additional inline relational record buttons                                                                                                                                                                                                                                          |
+| `plan2net/webp`                 | Automatic WebP image conversion                                                                                                                                                                                                                                                      |
 | `vlucas/phpdotenv`              | `.env` file support                                                                                                                                                                                                                                                                  |
 | TYPO3 Core extensions           | backend, belog, beuser, dashboard, extbase, extensionmanager, felogin, filelist, filemetadata, fluid, fluid-styled-content, form, frontend, impexp, info, install, linkvalidator, reactions, recycler, rte-ckeditor, scheduler, seo, setup, sys-note, tstemplate, viewpage, webhooks |
 
-## Temporarily removed extensions (not released for TYPO3 v14 yet)
-
-| Package                        | Description                            |
-|--------------------------------|----------------------------------------|
-| `ichhabrecht/content-defender` | Restrict allowed content element types |
-| `plan2net/webp`                | Automatic WebP image conversion        |
+`ichhabrecht/content-defender` is pulled from the fork at
+[oliverthiele/content_defender](https://github.com/oliverthiele/content_defender)
+(`dev-develop`) until a TYPO3 v14 compatible release is tagged upstream. The
+required VCS repository is already declared in `composer.json`.
 
 ## License
 

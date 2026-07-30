@@ -22,8 +22,11 @@
 		"b13/container": "^4.0",
 		"friendsoftypo3/content-blocks": "^2.4",
 		"helhum/typo3-console": "^9.0",
+		"ichhabrecht/content-defender": "dev-develop",
 		"oliverthiele/ot-febuild": "*",
-		"oliverthiele/ot-irrebuttons": "^4.0",
+		"oliverthiele/ot-iconselector": "^1.0",
+		"oliverthiele/ot-icons": "^2.1",
+		"oliverthiele/ot-irrebuttons": "^4.1",
 		"plan2net/webp": "^14.8",
 		"typo3/cms-backend": "^14.3",
 		"typo3/cms-belog": "^14.3",
@@ -60,12 +63,16 @@
 	"require-dev": {
 		"roave/security-advisories": "dev-latest",
 		"typo3/cms-lowlevel": "^14.3",
-		"typo3/coding-standards": "dev-main"
+		"typo3/coding-standards": "^0.9"
 	},
 	"repositories": {
 		"local": {
 			"type": "path",
 			"url": "./packages/*"
+		},
+		"ichhabrecht/content-defender": {
+			"type": "vcs",
+			"url": "https://github.com/oliverthiele/content_defender.git"
 		}
 	}
 }

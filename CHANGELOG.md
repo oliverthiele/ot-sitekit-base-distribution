@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0] — 2026-07-30
+
+### Added
+
+- Add `oliverthiele/ot-icons` at `^2.1`
+- Add `oliverthiele/ot-iconselector` at `^1.0`
+- Re-add `ichhabrecht/content-defender` at `dev-develop`, sourced from the VCS repository
+  `https://github.com/oliverthiele/content_defender.git` until a TYPO3 v14 compatible release is tagged
+
+### Changed
+
+- Update `oliverthiele/ot-irrebuttons` from `^4.0` to `^4.1`
+- Pin `typo3/coding-standards` (dev) from `dev-main` back to `^0.9`
+- Update README: list the newly added packages, drop the now empty
+  "Temporarily removed extensions" section (`plan2net/webp` is back since 2.1.0)
+
+---
+
 ## [2.3.0] — 2026-07-22
 
 ### Changed
