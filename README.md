@@ -27,15 +27,44 @@ extensions for a standard Sitekit setup.
 
 ## Installation
 
+### As a new project
+
 ```bash
 composer create-project oliverthiele/ot-sitekit-base-distribution your-project-dir
 ```
 
-Or add it to an existing project:
+This composer.json becomes the root package, so no further setup is needed.
+
+### In an existing project
 
 ```bash
 composer require oliverthiele/ot-sitekit-base-distribution
 ```
+
+This alone will fail to resolve `ichhabrecht/content-defender`. Composer reads
+`repositories` and stability flags **only from the root package** — the
+definitions shipped in this distribution are ignored once it is installed as a
+dependency. Add both to your project's own `composer.json`:
+
+```json
+{
+    "require": {
+        "oliverthiele/ot-sitekit-base-distribution": "^2.4",
+        "ichhabrecht/content-defender": "dev-develop"
+    },
+    "repositories": {
+        "ichhabrecht/content-defender": {
+            "type": "vcs",
+            "url": "https://github.com/oliverthiele/content_defender.git"
+        }
+    }
+}
+```
+
+The explicit root requirement sets the `dev` stability flag for this single
+package, which is preferable to lowering `minimum-stability` for the whole
+project. Once an upstream TYPO3 v14 release of `ichhabrecht/content-defender`
+is tagged, both entries can be dropped.
 
 ## Included Extensions
 

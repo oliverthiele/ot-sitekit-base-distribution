@@ -21,7 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update `oliverthiele/ot-irrebuttons` from `^4.0` to `^4.1`
 - Pin `typo3/coding-standards` (dev) from `dev-main` back to `^0.9`
 - Update README: list the newly added packages, drop the now empty
-  "Temporarily removed extensions" section (`plan2net/webp` is back since 2.1.0)
+  "Temporarily removed extensions" section (`plan2net/webp` is back since 2.1.0),
+  and document the extra root-level `repositories` and requirement entries needed
+  when installing the distribution into an existing project
 
 ---
 
