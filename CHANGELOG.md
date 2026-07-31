@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.4.0] — 2026-07-30
+
+### Added
+
+- Add `oliverthiele/ot-icons` at `^3.0`
+- Add `oliverthiele/ot-iconselector` at `^2.0`
+- Re-add `ichhabrecht/content-defender` at `dev-develop`, sourced from the VCS repository
+  `https://github.com/oliverthiele/content_defender.git` until a TYPO3 v14 compatible release is tagged
+
+### Changed
+
+- Update `oliverthiele/ot-irrebuttons` from `^4.0` to `^5.0`
+- Pin `typo3/coding-standards` (dev) from `dev-main` back to `^0.9`
+- Update README: list the newly added packages, drop the now empty
+  "Temporarily removed extensions" section (`plan2net/webp` is back since 2.1.0),
+  and document the extra root-level `repositories` and requirement entries needed
+  when installing the distribution into an existing project
+
+---
+
 ## [2.3.0] — 2026-07-22
 
 ### Changed
@@ -119,7 +139,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.3.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.4.0...HEAD
+[2.4.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.0.0...v2.1.0
