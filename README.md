@@ -41,30 +41,8 @@ This composer.json becomes the root package, so no further setup is needed.
 composer require oliverthiele/ot-sitekit-base-distribution
 ```
 
-This alone will fail to resolve `ichhabrecht/content-defender`. Composer reads
-`repositories` and stability flags **only from the root package** — the
-definitions shipped in this distribution are ignored once it is installed as a
-dependency. Add both to your project's own `composer.json`:
-
-```json
-{
-    "require": {
-        "oliverthiele/ot-sitekit-base-distribution": "^2.4",
-        "ichhabrecht/content-defender": "dev-develop"
-    },
-    "repositories": {
-        "ichhabrecht/content-defender": {
-            "type": "vcs",
-            "url": "https://github.com/oliverthiele/content_defender.git"
-        }
-    }
-}
-```
-
-The explicit root requirement sets the `dev` stability flag for this single
-package, which is preferable to lowering `minimum-stability` for the whole
-project. Once an upstream TYPO3 v14 release of `ichhabrecht/content-defender`
-is tagged, both entries can be dropped.
+Every dependency resolves from Packagist, so the project's own `composer.json`
+needs no additional `repositories` entry and no stability flag.
 
 ## Included Extensions
 
@@ -73,7 +51,6 @@ is tagged, both entries can be dropped.
 | `b13/container`                 | Container content elements                                                                                                                                                                                                                                                           |
 | `friendsoftypo3/content-blocks` | Content Blocks API                                                                                                                                                                                                                                                                   |
 | `helhum/typo3-console`          | Extended CLI for TYPO3                                                                                                                                                                                                                                                               |
-| `ichhabrecht/content-defender`  | Restrict allowed content element types                                                                                                                                                                                                                                               |
 | `oliverthiele/ot-febuild`       | Frontend build target extension                                                                                                                                                                                                                                                      |
 | `oliverthiele/ot-iconselector`  | Icon selection field for the TYPO3 backend                                                                                                                                                                                                                                           |
 | `oliverthiele/ot-icons`         | Icon set for the Sitekit setup                                                                                                                                                                                                                                                       |
@@ -82,10 +59,12 @@ is tagged, both entries can be dropped.
 | `vlucas/phpdotenv`              | `.env` file support                                                                                                                                                                                                                                                                  |
 | TYPO3 Core extensions           | backend, belog, beuser, dashboard, extbase, extensionmanager, felogin, filelist, filemetadata, fluid, fluid-styled-content, form, frontend, impexp, info, install, linkvalidator, reactions, recycler, rte-ckeditor, scheduler, seo, setup, sys-note, tstemplate, viewpage, webhooks |
 
-`ichhabrecht/content-defender` is pulled from the fork at
-[oliverthiele/content_defender](https://github.com/oliverthiele/content_defender)
-(`dev-develop`) until a TYPO3 v14 compatible release is tagged upstream. The
-required VCS repository is already declared in `composer.json`.
+Restricting the allowed content element types per backend layout column no
+longer needs `ichhabrecht/content-defender`. TYPO3 v14.1 covers it in the core
+(feature #108623, which also reads content_defender's `allowed.CType` syntax),
+and `b13/container` handles its own container columns from 4.1 onwards —
+including `maxitems`, which the core does not provide. `b13/container` is
+therefore required at `^4.1`.
 
 ## License
 

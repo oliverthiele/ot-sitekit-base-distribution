@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed
+
+- Remove `ichhabrecht/content-defender`, together with its VCS repository entry and
+  the README section describing the root-package workaround. TYPO3 v14.1 covers
+  `allowed`/`disallowed` per colPos in the core (feature #108623), which also reads
+  content_defender's `allowed.CType` syntax; `b13/container` covers its own container
+  columns from 4.1 onwards, `maxitems` included
+
+### Changed
+
+- Raise `b13/container` from `^4.0` to `^4.1`. Only 4.1 brings the container-side
+  content element restriction, so `^4.0` could resolve to a version that silently
+  drops the restriction once content-defender is gone
+
 ## [2.4.0] — 2026-07-30
 
 ### Added
