@@ -7,6 +7,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] — 2026-08-24
+
+Major because the bundled package set changed. The one capability that does not
+come back from the core or from `b13/container` is `maxitems` on **page** backend
+layout columns — container columns keep it. Projects relying on that must require
+`ichhabrecht/content-defender` themselves before upgrading.
+
+### Removed
+
+- Remove `ichhabrecht/content-defender`, together with its VCS repository entry and
+  the README section describing the root-package workaround. TYPO3 v14.1 covers
+  `allowed`/`disallowed` per colPos in the core (feature #108623), which also reads
+  content_defender's `allowed.CType` syntax; `b13/container` covers its own container
+  columns from 4.1 onwards, `maxitems` included
+
+### Changed
+
+- Raise `b13/container` from `^4.0` to `^4.1`. Only 4.1 brings the container-side
+  content element restriction, so `^4.0` could resolve to a version that silently
+  drops the restriction once content-defender is gone
+
 ## [2.4.0] — 2026-07-30
 
 ### Added
@@ -139,7 +160,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial release with curated set of extensions for TYPO3 v13.4 Sitekit setup
 
-[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.4.0...HEAD
+[Unreleased]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v3.0.0...HEAD
+[3.0.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.4.0...v3.0.0
 [2.4.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.2.0...v2.3.0
 [2.2.0]: https://github.com/oliverthiele/ot-sitekit-base-distribution/compare/v2.1.0...v2.2.0
