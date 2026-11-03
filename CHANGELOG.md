@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.1] — 2026-11-03
+
+### Security
+
+- Raise `typo3/cms-core` from `^14.3` to `^14.3.10`. 14.3.9 fixes
+  TYPO3-CORE-SA-2026-024; 14.3.10 raises `enshrined/svg-sanitize` to its security
+  release 1.1.1 and updates Symfony components with published advisories
+
+### Changed
+
+- Raise `plan2net/webp` from `^14.8` to `^14.10`
+- Raise `vlucas/phpdotenv` from `^5.6` to `^5.8`
+
+### Removed
+
+- Remove `roave/security-advisories` from `require-dev`. It compares the PHP version
+  number only, so it blocks `composer install` on hosts whose distribution PHP
+  package backports security fixes without raising the upstream version
+
 ## [3.0.0] — 2026-08-24
 
 Major because the bundled package set changed. The one capability that does not
